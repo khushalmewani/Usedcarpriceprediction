@@ -441,20 +441,3 @@ if predict:
         st.balloons()
 
 
-# writing some information about the projects.
-
-st.header('🧭 Little Info About the Project')
-prj_info = """
-            Here you can predict used car 🚙 price by giving some information like car brand, model of the car, how much the car has been driven and so on.
-            Then just click on predict button, I recommend to chhose 'RandomForest Regressor' for predict the price because it will give more accurate 
-            result.\n
-            
-            I am sharing the full project's notebooks along with dataset. \n
-            In case if you want to run the file. - [drive link](https://drive.google.com/drive/folders/1-ODpvXAPbn612LZ8gqWSMqYq-0W-lXHv?usp=sharing)\n
-            Only want to look at the code? - [Github](https://github.com/subha996/Used-Car-Price-Prediction) \n
-            In case want to contact with me -  subhabratanath@outlook.com 📫
-"""
-st.write(prj_info)
-st.header("""Untll then ❤""")
-
-
